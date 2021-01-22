@@ -92,7 +92,7 @@ function draw() {
         text("Are you up for the challenge? if you are click",260,275);
 
         if (mousePressedOver(play)) {
-            gameState = LEVEL2;
+            gameState = LEVEL1;
         }
         
     }else if (gameState === LEVEL1) {
